@@ -54,8 +54,8 @@ while (konvergen == 0 & iter < itermax)
     end
     iter = iter + 1;
 end
-plot(x,Fbaru,'LineWidth',2)
+plot(x,Fbaru)
 title ('Plot Fluks Neutron Terhadap Posisi');
-xlabel ('Posisi (cm)');
-ylabel ('Fluks Neutron (neutron/cm^2.s)');
+xlabel ('Posisi');
+ylabel ('Fluks Neutron');
 
